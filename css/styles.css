@@ -1,0 +1,145 @@
+body {
+    background-color: 40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    line-height: 2;
+    color: #66BFBF;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /*100% = 16px = 1em = 1rem*/
+    /* 1em vs 1 rem. E.g. inside the BODY you state that the font-size: 20px. If you use em's it will be added to
+    those 20px. So it would be 20px + x em's. But when you use rem's, they totally ignore previously declared
+    pixels, em's or anything else, and simply proceed with the amount of rem's that you've declared in your
+    child's tag.
+    THAT'S WHY IT IS A BETTER PRACTICE TO USE REM'S INSTEAD OF ANYTHING ELSE !!!! */
+}
+
+h2, h3, p {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3, .footer-link {
+    color: #11999E;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-container {
+    background-color: #CBEDD5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 420px;
+    left: 280px;
+}
+
+.middle-container {
+    padding: 100px 0;
+}
+
+.profile img {
+    margin-bottom: 50px;
+}
+
+.about-me {
+    width: 50%;
+    margin: 30px auto 100px;
+    line-height: 1.8;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 0;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 25%;
+}
+
+.planning-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img {
+    float: right;
+    margin-left: 30px;
+}
+
+.code-section {
+    text-align: right;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 40px 0 25px;
+}
+
+.bottom-container p {
+    color: #EAF6F6;
+    padding: 20px 0 0;
+    font-size: 0.75rem;
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(#11cdd4, #11999e);
+}
+
+.btn:hover {
+    background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.contact-me {
+    margin: 100px 0 50px;
+}
+
+.contact-me h3 {
+    margin: 30px 0 0;
+}
+
+.contact-me p {
+    margin: 50px auto;
+}
+
+.footer-link {
+    color: #11999E;
+    margin-right: 20px;
+}
